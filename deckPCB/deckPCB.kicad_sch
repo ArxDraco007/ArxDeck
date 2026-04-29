@@ -5,6 +5,190 @@
 	(uuid "247c98a0-82d0-40f5-8fb4-0a24ae0970fd")
 	(paper "A3")
 	(lib_symbols
+		(symbol "ArxDeck_Custom:K-Silver_JH16"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "K-Silver_JH16_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "K-Silver_JH16_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "X-OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "Y-OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -12.7 90)
+					(length 2.54)
+					(name "SW1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -12.7 90)
+					(length 2.54)
+					(name "SW2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
 				(offset 1.016)
@@ -6324,8 +6508,8 @@
 		(uuid "1d65e82c-6bf2-412d-aa5a-e385c49d92e5")
 	)
 	(rectangle
-		(start 140.97 167.64)
-		(end 226.06 248.92)
+		(start 139.7 198.12)
+		(end 224.79 279.4)
 		(stroke
 			(width 0)
 			(type default)
@@ -6348,8 +6532,8 @@
 		(uuid "39e437d9-fe60-4821-ad4a-cfc11bad20bd")
 	)
 	(rectangle
-		(start 156.21 21.59)
-		(end 198.12 163.83)
+		(start 139.7 21.59)
+		(end 198.12 194.31)
 		(stroke
 			(width 0)
 			(type default)
@@ -6373,7 +6557,7 @@
 	)
 	(text "Audio & Storage"
 		(exclude_from_sim no)
-		(at 182.626 246.126 0)
+		(at 181.356 276.606 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -6393,7 +6577,7 @@
 	)
 	(text "(Right Angle Switch)"
 		(exclude_from_sim no)
-		(at 169.672 120.142 0)
+		(at 160.782 146.812 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6423,33 +6607,13 @@
 	)
 	(text "The Controller Inputs"
 		(exclude_from_sim no)
-		(at 176.276 160.02 0)
+		(at 167.64 189.484 0)
 		(effects
 			(font
 				(size 1.905 1.905)
 			)
 		)
 		(uuid "c8a76181-d54d-4fcb-8492-b09a733f1cfb")
-	)
-	(text "K silver hall joystick yet to be added"
-		(exclude_from_sim no)
-		(at 176.784 26.416 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ec54a268-845d-4b61-bcd8-46da69df9dba")
-	)
-	(text "K silver hall joystick yet to be added"
-		(exclude_from_sim no)
-		(at 177.038 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f795f0f9-70fd-453f-ab65-a83687c89e56")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -6535,7 +6699,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 137.16 0)
+		(at 171.45 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6546,7 +6710,7 @@
 		(fields_autoplaced yes)
 		(uuid "070fd4f2-5249-4d33-a8a6-046c4a81f92b")
 		(property "Reference" "C18"
-			(at 181.61 135.8899 0)
+			(at 175.26 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6557,7 +6721,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 181.61 138.4299 0)
+			(at 175.26 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6568,7 +6732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 178.7652 140.97 0)
+			(at 172.4152 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6579,7 +6743,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 137.16 0)
+			(at 171.45 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6590,7 +6754,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 177.8 137.16 0)
+			(at 171.45 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6987,8 +7151,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 185.42 91.44 0)
+		(lib_id "ArxDeck_Custom:K-Silver_JH16")
+		(at 154.94 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6997,9 +7161,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2b539680-0cdb-48b9-97f3-b8f93e2bb904")
-		(property "Reference" "SW12"
-			(at 185.42 83.82 0)
+		(uuid "29478378-97d1-4575-8c90-0fe3063c5794")
+		(property "Reference" "JS1"
+			(at 154.94 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7008,8 +7172,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 185.42 86.36 0)
+		(property "Value" ""
+			(at 154.94 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7019,7 +7183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 86.36 0)
+			(at 154.94 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7030,7 +7194,99 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 86.36 0)
+			(at 154.94 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "06e33d39-10ed-4e1d-be1f-f80d0ae68062")
+		)
+		(pin "4"
+			(uuid "70d8946b-212b-4eca-93e1-b6c44775564e")
+		)
+		(pin "2"
+			(uuid "8cd16e3f-c20c-4509-93f1-e57aa225f025")
+		)
+		(pin "5"
+			(uuid "dd907e86-1670-449c-907e-8c313db4c060")
+		)
+		(pin "6"
+			(uuid "ac6144f9-c962-402d-aaf2-f5a11ff47a90")
+		)
+		(pin "1"
+			(uuid "ccf99f1e-138b-4b11-bd0b-df8f008c9d44")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "JS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 176.53 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b539680-0cdb-48b9-97f3-b8f93e2bb904")
+		(property "Reference" "SW12"
+			(at 176.53 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 176.53 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7041,7 +7297,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 185.42 91.44 0)
+			(at 176.53 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7315,7 +7571,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 241.3 0)
+		(at 144.78 271.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7326,7 +7582,7 @@
 		(fields_autoplaced yes)
 		(uuid "3be9cb3d-5aa8-490b-a051-5f0af67b3b11")
 		(property "Reference" "R8"
-			(at 148.59 240.0299 0)
+			(at 147.32 270.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7337,7 +7593,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 148.59 242.5699 0)
+			(at 147.32 273.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7348,7 +7604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.272 241.3 90)
+			(at 143.002 271.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7359,7 +7615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 241.3 0)
+			(at 144.78 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7370,7 +7626,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 241.3 0)
+			(at 144.78 271.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7397,7 +7653,7 @@
 	)
 	(symbol
 		(lib_id "Device:Speaker")
-		(at 207.01 185.42 0)
+		(at 205.74 215.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7408,7 +7664,7 @@
 		(fields_autoplaced yes)
 		(uuid "40f490df-6fe6-4f61-82c3-c393c66fe092")
 		(property "Reference" "LS1"
-			(at 212.09 185.4199 0)
+			(at 210.82 215.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7419,7 +7675,7 @@
 			)
 		)
 		(property "Value" "Speaker"
-			(at 212.09 187.9599 0)
+			(at 210.82 218.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7430,7 +7686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 190.5 0)
+			(at 205.74 220.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7441,7 +7697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 206.756 186.69 0)
+			(at 205.486 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7452,7 +7708,7 @@
 			)
 		)
 		(property "Description" "Speaker"
-			(at 207.01 185.42 0)
+			(at 205.74 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7643,7 +7899,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 185.42 125.73 0)
+		(at 176.53 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7654,7 +7910,7 @@
 		(fields_autoplaced yes)
 		(uuid "48ccd2a0-78cd-438a-b96b-b21698212c64")
 		(property "Reference" "SW15"
-			(at 185.42 118.11 0)
+			(at 176.53 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7664,7 +7920,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 185.42 120.65 0)
+			(at 176.53 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7674,7 +7930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 120.65 0)
+			(at 176.53 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7685,7 +7941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 120.65 0)
+			(at 176.53 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7696,7 +7952,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 185.42 125.73 0)
+			(at 176.53 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7805,7 +8061,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 167.64 55.88 0)
+		(at 158.75 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7816,7 +8072,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bb812b0-ba40-4008-ac83-11b753c7b4c7")
 		(property "Reference" "SW2"
-			(at 167.64 48.26 0)
+			(at 158.75 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7826,7 +8082,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 167.64 50.8 0)
+			(at 158.75 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7836,7 +8092,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 50.8 0)
+			(at 158.75 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7847,7 +8103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 50.8 0)
+			(at 158.75 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7858,7 +8114,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 167.64 55.88 0)
+			(at 158.75 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7885,7 +8141,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 185.42 55.88 0)
+		(at 176.53 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7896,7 +8152,7 @@
 		(fields_autoplaced yes)
 		(uuid "51ddd4e5-1d7d-4df2-b917-21425a17ff52")
 		(property "Reference" "SW9"
-			(at 185.42 48.26 0)
+			(at 176.53 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7906,7 +8162,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 185.42 50.8 0)
+			(at 176.53 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7916,7 +8172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 50.8 0)
+			(at 176.53 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7927,7 +8183,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 50.8 0)
+			(at 176.53 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7938,7 +8194,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 185.42 55.88 0)
+			(at 176.53 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8232,7 +8488,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 146.05 231.14 0)
+		(at 144.78 261.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8243,7 +8499,7 @@
 		(fields_autoplaced yes)
 		(uuid "61dfd680-7162-4d83-9e08-12c95ceee0a1")
 		(property "Reference" "C16"
-			(at 149.86 229.8699 0)
+			(at 148.59 260.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8254,7 +8510,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 149.86 232.4099 0)
+			(at 148.59 262.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8265,7 +8521,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.0152 234.95 0)
+			(at 145.7452 265.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8276,7 +8532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 231.14 0)
+			(at 144.78 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8287,7 +8543,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 146.05 231.14 0)
+			(at 144.78 261.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8314,7 +8570,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 167.64 101.6 0)
+		(at 158.75 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8325,7 +8581,7 @@
 		(fields_autoplaced yes)
 		(uuid "62b7a11d-e8b8-49e6-a3eb-f5c0609a8edf")
 		(property "Reference" "SW6"
-			(at 167.64 93.98 0)
+			(at 158.75 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8335,7 +8591,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 167.64 96.52 0)
+			(at 158.75 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8345,7 +8601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 96.52 0)
+			(at 158.75 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8356,7 +8612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 96.52 0)
+			(at 158.75 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8367,7 +8623,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 167.64 101.6 0)
+			(at 158.75 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8948,7 +9204,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 185.42 80.01 0)
+		(at 176.53 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8959,7 +9215,7 @@
 		(fields_autoplaced yes)
 		(uuid "733a4ab8-6185-483b-ab0f-974aa0cade3b")
 		(property "Reference" "SW11"
-			(at 185.42 72.39 0)
+			(at 176.53 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8969,7 +9225,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 185.42 74.93 0)
+			(at 176.53 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8979,7 +9235,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 74.93 0)
+			(at 176.53 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8990,7 +9246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 74.93 0)
+			(at 176.53 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9001,7 +9257,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 185.42 80.01 0)
+			(at 176.53 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9028,7 +9284,7 @@
 	)
 	(symbol
 		(lib_id "Device:Speaker")
-		(at 207.01 200.66 0)
+		(at 205.74 231.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9039,7 +9295,7 @@
 		(fields_autoplaced yes)
 		(uuid "78795051-7ce9-429e-aee0-9a659e46b5ef")
 		(property "Reference" "LS2"
-			(at 212.09 200.6599 0)
+			(at 210.82 231.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9050,7 +9306,7 @@
 			)
 		)
 		(property "Value" "Speaker"
-			(at 212.09 203.1999 0)
+			(at 210.82 233.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9061,7 +9317,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 205.74 0)
+			(at 205.74 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9072,7 +9328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 206.756 201.93 0)
+			(at 205.486 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9083,7 +9339,7 @@
 			)
 		)
 		(property "Description" "Speaker"
-			(at 207.01 200.66 0)
+			(at 205.74 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9110,7 +9366,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 146.05 220.98 0)
+		(at 144.78 251.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9121,7 +9377,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c51a97b-36ab-4b28-8900-6a64700bdfc2")
 		(property "Reference" "C14"
-			(at 149.86 219.7099 0)
+			(at 148.59 250.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9132,7 +9388,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 149.86 222.2499 0)
+			(at 148.59 252.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9143,7 +9399,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.0152 224.79 0)
+			(at 145.7452 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9154,7 +9410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 220.98 0)
+			(at 144.78 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9165,7 +9421,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 146.05 220.98 0)
+			(at 144.78 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9274,7 +9530,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 167.64 111.76 0)
+		(at 158.75 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9285,7 +9541,7 @@
 		(fields_autoplaced yes)
 		(uuid "82779c60-6c6d-4b9e-b626-dc9f57e117ea")
 		(property "Reference" "SW7"
-			(at 167.64 104.14 0)
+			(at 158.75 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9295,7 +9551,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 167.64 106.68 0)
+			(at 158.75 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9305,7 +9561,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 106.68 0)
+			(at 158.75 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9316,7 +9572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 106.68 0)
+			(at 158.75 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9327,7 +9583,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 167.64 111.76 0)
+			(at 158.75 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9436,7 +9692,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 185.42 67.31 0)
+		(at 176.53 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9447,7 +9703,7 @@
 		(fields_autoplaced yes)
 		(uuid "9288ae6e-8e28-445a-82ab-a5438cc1ad63")
 		(property "Reference" "SW10"
-			(at 185.42 59.69 0)
+			(at 176.53 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9457,7 +9713,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 185.42 62.23 0)
+			(at 176.53 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9467,7 +9723,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 62.23 0)
+			(at 176.53 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9478,7 +9734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 62.23 0)
+			(at 176.53 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9489,7 +9745,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 185.42 67.31 0)
+			(at 176.53 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9516,7 +9772,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 167.64 80.01 0)
+		(at 158.75 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9527,7 +9783,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ac1b48e-9942-4c5e-9fb8-504c20189664")
 		(property "Reference" "SW4"
-			(at 167.64 72.39 0)
+			(at 158.75 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9537,7 +9793,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 167.64 74.93 0)
+			(at 158.75 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9547,7 +9803,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 74.93 0)
+			(at 158.75 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9558,7 +9814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 74.93 0)
+			(at 158.75 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9569,7 +9825,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 167.64 80.01 0)
+			(at 158.75 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9975,7 +10231,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 147.32 0)
+		(at 171.45 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9986,7 +10242,7 @@
 		(fields_autoplaced yes)
 		(uuid "9df39d94-96a0-4cbc-b0d0-6453ab431212")
 		(property "Reference" "C20"
-			(at 181.61 146.0499 0)
+			(at 175.26 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9997,7 +10253,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 181.61 148.5899 0)
+			(at 175.26 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10008,7 +10264,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 178.7652 151.13 0)
+			(at 172.4152 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10019,7 +10275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 147.32 0)
+			(at 171.45 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10030,7 +10286,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 177.8 147.32 0)
+			(at 171.45 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10138,8 +10394,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 167.64 44.45 0)
+		(lib_id "ArxDeck_Custom:K-Silver_JH16")
+		(at 180.34 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10148,9 +10404,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a642821c-5d67-4b90-962d-0c44699bd879")
-		(property "Reference" "SW1"
-			(at 167.64 36.83 0)
+		(uuid "a5f6a85c-05e3-4f85-9fdf-8b81d5a46e9a")
+		(property "Reference" "JS2"
+			(at 180.34 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10159,8 +10415,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 167.64 39.37 0)
+		(property "Value" ""
+			(at 180.34 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10170,7 +10426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 39.37 0)
+			(at 180.34 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10181,7 +10437,99 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 39.37 0)
+			(at 180.34 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "77049434-854c-4a55-8df5-448205e79fd9")
+		)
+		(pin "4"
+			(uuid "82a80021-6e3f-45cc-85ca-57dc242559c8")
+		)
+		(pin "2"
+			(uuid "9c437e1d-2b94-4ce5-984d-c252f233e427")
+		)
+		(pin "5"
+			(uuid "04f4a0ae-4a90-430e-ac1c-765ec72ac5d7")
+		)
+		(pin "6"
+			(uuid "9ce51c89-45eb-4e7c-a04a-b17045a613ec")
+		)
+		(pin "1"
+			(uuid "6f3eb1f1-3c73-4830-96a5-95b2124147b3")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "JS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 158.75 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a642821c-5d67-4b90-962d-0c44699bd879")
+		(property "Reference" "SW1"
+			(at 158.75 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 158.75 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10192,7 +10540,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 167.64 44.45 0)
+			(at 158.75 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10301,7 +10649,7 @@
 	)
 	(symbol
 		(lib_id "PAM8403DR:PAM8403DR")
-		(at 160.02 193.04 0)
+		(at 158.75 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10312,7 +10660,7 @@
 		(fields_autoplaced yes)
 		(uuid "acabbb99-d3f6-4b20-bdd2-377e881d4ea5")
 		(property "Reference" "U5"
-			(at 160.02 170.18 0)
+			(at 158.75 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10322,7 +10670,7 @@
 			)
 		)
 		(property "Value" "PAM8403DR"
-			(at 160.02 172.72 0)
+			(at 158.75 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10332,7 +10680,7 @@
 			)
 		)
 		(property "Footprint" "PAM8403DR:SOIC127P605X150-16N"
-			(at 160.02 193.04 0)
+			(at 158.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10344,7 +10692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 193.04 0)
+			(at 158.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10355,7 +10703,7 @@
 			)
 		)
 		(property "Description" "Amplifiers, Audio, 3W STEREO FILTERLESS CLASS-D AUDIO AMP | Diodes Inc PAM8403DR"
-			(at 160.02 193.04 0)
+			(at 158.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10367,7 +10715,7 @@
 			)
 		)
 		(property "MF" "Diodes Inc."
-			(at 160.02 193.04 0)
+			(at 158.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10379,7 +10727,7 @@
 			)
 		)
 		(property "Package" "SOP-16 Diodes Inc."
-			(at 160.02 193.04 0)
+			(at 158.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10391,7 +10739,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 160.02 193.04 0)
+			(at 158.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10403,7 +10751,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/PAM8403DR/Diodes+Inc./view-part/?ref=eda"
-			(at 160.02 193.04 0)
+			(at 158.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10415,7 +10763,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PAM8403DR/Diodes+Inc./view-part/?ref=snap"
-			(at 160.02 193.04 0)
+			(at 158.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10427,7 +10775,7 @@
 			)
 		)
 		(property "MP" "PAM8403DR"
-			(at 160.02 193.04 0)
+			(at 158.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10439,7 +10787,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 160.02 193.04 0)
+			(at 158.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10451,7 +10799,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Diodes"
-			(at 160.02 193.04 0)
+			(at 158.75 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11154,7 +11502,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
-		(at 187.96 194.31 0)
+		(at 186.69 224.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11165,7 +11513,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0ad0326-7535-4faf-b412-28a9199e0ef0")
 		(property "Reference" "J2"
-			(at 188.595 184.15 0)
+			(at 187.325 214.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11175,7 +11523,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Pin"
-			(at 188.595 186.69 0)
+			(at 187.325 217.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11185,7 +11533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 194.31 0)
+			(at 186.69 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11196,7 +11544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 194.31 0)
+			(at 186.69 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11207,7 +11555,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 187.96 194.31 0)
+			(at 186.69 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11328,7 +11676,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 185.42 111.76 0)
+		(at 176.53 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11339,7 +11687,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5078574-5705-484e-b7ba-b6325a209b1b")
 		(property "Reference" "SW14"
-			(at 185.42 104.14 0)
+			(at 176.53 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11349,7 +11697,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 185.42 106.68 0)
+			(at 176.53 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11359,7 +11707,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 106.68 0)
+			(at 176.53 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11370,7 +11718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 106.68 0)
+			(at 176.53 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11381,7 +11729,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 185.42 111.76 0)
+			(at 176.53 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11408,7 +11756,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 156.21 220.98 0)
+		(at 154.94 251.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11419,7 +11767,7 @@
 		(fields_autoplaced yes)
 		(uuid "c58be64a-3bf8-4161-83ea-7cf07fb172b0")
 		(property "Reference" "C15"
-			(at 160.02 219.7099 0)
+			(at 158.75 250.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11430,7 +11778,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 160.02 222.2499 0)
+			(at 158.75 252.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11441,7 +11789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.1752 224.79 0)
+			(at 155.9052 255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11452,7 +11800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 220.98 0)
+			(at 154.94 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11463,7 +11811,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 156.21 220.98 0)
+			(at 154.94 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11490,7 +11838,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 185.42 101.6 0)
+		(at 176.53 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11501,7 +11849,7 @@
 		(fields_autoplaced yes)
 		(uuid "c726a990-cff9-4432-a9ac-0bd1120cbc40")
 		(property "Reference" "SW13"
-			(at 185.42 93.98 0)
+			(at 176.53 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11511,7 +11859,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 185.42 96.52 0)
+			(at 176.53 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11521,7 +11869,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 96.52 0)
+			(at 176.53 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11532,7 +11880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 96.52 0)
+			(at 176.53 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11543,7 +11891,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 185.42 101.6 0)
+			(at 176.53 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11805,7 +12153,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 167.64 91.44 0)
+		(at 158.75 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11816,7 +12164,7 @@
 		(fields_autoplaced yes)
 		(uuid "d17ae2a1-cdff-42a3-93b1-3a34330d005b")
 		(property "Reference" "SW5"
-			(at 167.64 83.82 0)
+			(at 158.75 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11826,7 +12174,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 167.64 86.36 0)
+			(at 158.75 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11836,7 +12184,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 86.36 0)
+			(at 158.75 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11847,7 +12195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 86.36 0)
+			(at 158.75 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11858,7 +12206,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 167.64 91.44 0)
+			(at 158.75 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11885,7 +12233,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 165.1 137.16 0)
+		(at 158.75 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11896,7 +12244,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1b31159-37e6-4e7c-86bb-cdb138ba8aa7")
 		(property "Reference" "C17"
-			(at 168.91 135.8899 0)
+			(at 162.56 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11907,7 +12255,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 168.91 138.4299 0)
+			(at 162.56 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11918,7 +12266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.0652 140.97 0)
+			(at 159.7152 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11929,7 +12277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 137.16 0)
+			(at 158.75 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11940,7 +12288,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 165.1 137.16 0)
+			(at 158.75 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11967,7 +12315,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 185.42 44.45 0)
+		(at 176.53 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11978,7 +12326,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2cc22f8-f419-4d06-93f4-2c42c415faa0")
 		(property "Reference" "SW8"
-			(at 185.42 36.83 0)
+			(at 176.53 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11988,7 +12336,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 185.42 39.37 0)
+			(at 176.53 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11998,7 +12346,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 39.37 0)
+			(at 176.53 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12009,7 +12357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 39.37 0)
+			(at 176.53 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12020,7 +12368,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 185.42 44.45 0)
+			(at 176.53 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12129,7 +12477,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 165.1 147.32 0)
+		(at 158.75 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12140,7 +12488,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcd39f29-6111-4c7e-916f-fa857049c12a")
 		(property "Reference" "C19"
-			(at 168.91 146.0499 0)
+			(at 162.56 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12151,7 +12499,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 168.91 148.5899 0)
+			(at 162.56 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12162,7 +12510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.0652 151.13 0)
+			(at 159.7152 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12173,7 +12521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 147.32 0)
+			(at 158.75 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12184,7 +12532,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 165.1 147.32 0)
+			(at 158.75 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12211,7 +12559,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 167.64 67.31 0)
+		(at 158.75 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12222,7 +12570,7 @@
 		(fields_autoplaced yes)
 		(uuid "df8b263c-da49-4bef-afc9-c3bd3c1bd6b5")
 		(property "Reference" "SW3"
-			(at 167.64 59.69 0)
+			(at 158.75 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12232,7 +12580,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 167.64 62.23 0)
+			(at 158.75 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12242,7 +12590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 62.23 0)
+			(at 158.75 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12253,7 +12601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 62.23 0)
+			(at 158.75 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12264,7 +12612,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 167.64 67.31 0)
+			(at 158.75 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
