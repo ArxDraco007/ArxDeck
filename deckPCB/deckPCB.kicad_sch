@@ -3373,6 +3373,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Speaker"
 			(pin_names
 				(offset 0)
@@ -6184,8 +6324,8 @@
 		(uuid "1d65e82c-6bf2-412d-aa5a-e385c49d92e5")
 	)
 	(rectangle
-		(start 140.97 148.59)
-		(end 226.06 204.47)
+		(start 140.97 167.64)
+		(end 226.06 248.92)
 		(stroke
 			(width 0)
 			(type default)
@@ -6196,8 +6336,8 @@
 		(uuid "2eadebe0-5d90-48e9-b291-26e2281140fb")
 	)
 	(rectangle
-		(start 16.51 160.02)
-		(end 123.19 233.68)
+		(start 208.28 20.32)
+		(end 314.96 93.98)
 		(stroke
 			(width 0)
 			(type default)
@@ -6209,7 +6349,7 @@
 	)
 	(rectangle
 		(start 156.21 21.59)
-		(end 198.12 138.43)
+		(end 198.12 163.83)
 		(stroke
 			(width 0)
 			(type default)
@@ -6221,7 +6361,7 @@
 	)
 	(rectangle
 		(start 16.51 13.97)
-		(end 133.35 153.67)
+		(end 133.35 227.33)
 		(stroke
 			(width 0)
 			(type default)
@@ -6233,7 +6373,7 @@
 	)
 	(text "Audio & Storage"
 		(exclude_from_sim no)
-		(at 180.594 200.406 0)
+		(at 182.626 246.126 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -6243,7 +6383,7 @@
 	)
 	(text "The Core Processing"
 		(exclude_from_sim no)
-		(at 33.02 150.622 0)
+		(at 32.766 223.012 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -6263,7 +6403,7 @@
 	)
 	(text "The Power Section\n"
 		(exclude_from_sim no)
-		(at 33.02 229.362 0)
+		(at 224.79 89.662 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -6283,7 +6423,7 @@
 	)
 	(text "The Controller Inputs"
 		(exclude_from_sim no)
-		(at 176.784 135.128 0)
+		(at 176.276 160.02 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -6312,8 +6452,418 @@
 		(uuid "f795f0f9-70fd-453f-ab65-a83687c89e56")
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 252.73 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03ddb3ee-afbe-453d-8ef3-7b49187ec225")
+		(property "Reference" "R2"
+			(at 255.27 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 255.27 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.952 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 252.73 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "571a0717-302e-4ffb-af1c-e843556801ad")
+		)
+		(pin "1"
+			(uuid "0d32445f-8689-4b1a-83c3-66f4fd882c75")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 177.8 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "070fd4f2-5249-4d33-a8a6-046c4a81f92b")
+		(property "Reference" "C18"
+			(at 181.61 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 181.61 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 178.7652 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 177.8 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5ee7613d-6756-4d32-b5c0-09666958a7e3")
+		)
+		(pin "1"
+			(uuid "83cd31e4-29e4-4f3d-8669-686f7c781945")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 34.29 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fc5e6d4-b6d0-4add-b628-dc08e6528b70")
+		(property "Reference" "C13"
+			(at 38.1 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 38.1 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.2552 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 34.29 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c917d8c8-8bcd-456e-be09-ce0c1c141867")
+		)
+		(pin "1"
+			(uuid "852cc23e-d31e-4e71-b337-55235b17f64b")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 22.86 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18c13e59-ce21-4fc4-94cf-5795a98bdb6d")
+		(property "Reference" "R5"
+			(at 25.4 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 25.4 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.082 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 22.86 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d0a4ab82-b6f5-4256-a989-7e233e9295b0")
+		)
+		(pin "1"
+			(uuid "f812afbf-4761-4a07-bc54-a5cca0948e17")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 267.97 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a80d35e-1866-40ff-8a85-b00e7e3ee199")
+		(property "Reference" "R4"
+			(at 270.51 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 270.51 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.192 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 267.97 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "70b8d8bc-bba0-4a4e-8382-e3ef0f215741")
+		)
+		(pin "1"
+			(uuid "f90895ff-ba01-472a-81d7-aa35dfcaa49c")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 104.14 186.69 0)
+		(at 295.91 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6324,7 +6874,7 @@
 		(fields_autoplaced yes)
 		(uuid "25d66582-79a8-43fe-8cc6-f3a1e97c0d3e")
 		(property "Reference" "J1"
-			(at 104.14 163.83 0)
+			(at 295.91 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6334,7 +6884,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 104.14 166.37 0)
+			(at 295.91 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6344,7 +6894,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 186.69 0)
+			(at 299.72 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6355,7 +6905,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 107.95 186.69 0)
+			(at 299.72 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6366,7 +6916,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 104.14 186.69 0)
+			(at 295.91 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6518,7 +7068,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 34.29 209.55 0)
+		(at 226.06 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6529,7 +7079,7 @@
 		(fields_autoplaced yes)
 		(uuid "2eacc4e1-5178-4b91-9ab4-d6c08fe6e61b")
 		(property "Reference" "C2"
-			(at 38.1 208.2799 0)
+			(at 229.87 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6540,7 +7090,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 38.1 210.8199 0)
+			(at 229.87 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6551,7 +7101,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.2552 213.36 0)
+			(at 227.0252 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6562,7 +7112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 209.55 0)
+			(at 226.06 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6573,7 +7123,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 34.29 209.55 0)
+			(at 226.06 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6600,7 +7150,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 76.2 179.07 0)
+		(at 267.97 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6611,7 +7161,7 @@
 		(fields_autoplaced yes)
 		(uuid "34fd321b-123d-47c9-ad6d-fca430c954cd")
 		(property "Reference" "U4"
-			(at 76.2 172.72 0)
+			(at 267.97 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6621,7 +7171,7 @@
 			)
 		)
 		(property "Value" "AMS1117-3.3"
-			(at 76.2 175.26 0)
+			(at 267.97 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6631,7 +7181,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 76.2 173.99 0)
+			(at 267.97 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6642,7 +7192,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 78.74 185.42 0)
+			(at 270.51 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6653,7 +7203,7 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 76.2 179.07 0)
+			(at 267.97 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6683,7 +7233,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 60.96 179.07 0)
+		(at 236.22 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6694,7 +7244,7 @@
 		(fields_autoplaced yes)
 		(uuid "386f93f3-d092-4f45-8a0f-0d475db08112")
 		(property "Reference" "L1"
-			(at 62.23 177.7999 0)
+			(at 237.49 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6705,7 +7255,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 62.23 180.3399 0)
+			(at 237.49 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6716,7 +7266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 179.07 0)
+			(at 236.22 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6727,7 +7277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 179.07 0)
+			(at 236.22 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6738,7 +7288,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 60.96 179.07 0)
+			(at 236.22 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6764,8 +7314,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Speaker")
-		(at 207.01 166.37 0)
+		(lib_id "Device:R")
+		(at 146.05 241.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6774,9 +7324,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "40f490df-6fe6-4f61-82c3-c393c66fe092")
-		(property "Reference" "LS1"
-			(at 212.09 166.3699 0)
+		(uuid "3be9cb3d-5aa8-490b-a051-5f0af67b3b11")
+		(property "Reference" "R8"
+			(at 148.59 240.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6786,8 +7336,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Speaker"
-			(at 212.09 168.9099 0)
+		(property "Value" "R"
+			(at 148.59 242.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6798,7 +7348,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 171.45 0)
+			(at 144.272 241.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6809,7 +7359,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 206.756 167.64 0)
+			(at 146.05 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9506212c-501e-464b-b24c-ee161aee3d68")
+		)
+		(pin "2"
+			(uuid "72ec30c6-fae2-4a35-9dfb-f112c8d6cb2c")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Speaker")
+		(at 207.01 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40f490df-6fe6-4f61-82c3-c393c66fe092")
+		(property "Reference" "LS1"
+			(at 212.09 185.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Speaker"
+			(at 212.09 187.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 206.756 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6820,7 +7452,7 @@
 			)
 		)
 		(property "Description" "Speaker"
-			(at 207.01 166.37 0)
+			(at 207.01 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6840,6 +7472,170 @@
 			(project "deckPCB"
 				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
 					(reference "LS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 44.45 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46bbec67-bff9-4b18-93ea-0d1d49c9ffd6")
+		(property "Reference" "C5"
+			(at 48.26 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 48.26 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.4152 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 44.45 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9d1e4c15-5696-4552-b1d4-834c2e39d22c")
+		)
+		(pin "1"
+			(uuid "3ecaf32d-8840-48f9-a673-e51421a1fdaf")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46e30408-20fb-4804-ba44-088842f10ade")
+		(property "Reference" "C7"
+			(at 68.58 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 68.58 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 65.7352 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "057221be-7fc7-46eb-8300-8e86c598359b")
+		)
+		(pin "1"
+			(uuid "9286a208-d8ba-4d4d-acdd-e9db9e4be9a4")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6920,6 +7716,88 @@
 			(project "deckPCB"
 				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
 					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 22.86 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b5bcba8-dc46-4fe3-b9b4-80689288dd51")
+		(property "Reference" "C12"
+			(at 26.67 186.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 26.67 189.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 23.8252 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 22.86 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5faed078-c343-4449-8793-99cd8a3add76")
+		)
+		(pin "1"
+			(uuid "af23fc91-ba47-4ef3-99a0-086f17f17631")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7086,6 +7964,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 74.93 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "522ab472-4980-492f-8ecb-552592c6d70a")
+		(property "Reference" "C8"
+			(at 78.74 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 78.74 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 75.8952 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 74.93 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f7736b2f-b02c-4c8b-bfa6-7e86fd8d03d8")
+		)
+		(pin "1"
+			(uuid "c202c0c1-fd5f-4fe7-8e81-68b4f863d0c0")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Memory_Flash:W25Q128JVE")
 		(at 36.83 130.81 0)
 		(unit 1)
@@ -7190,7 +8150,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 24.13 209.55 0)
+		(at 215.9 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7201,7 +8161,7 @@
 		(fields_autoplaced yes)
 		(uuid "6037360f-a927-4aa0-bd84-1cf34e19e4ec")
 		(property "Reference" "C1"
-			(at 27.94 208.2799 0)
+			(at 219.71 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7212,7 +8172,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 27.94 210.8199 0)
+			(at 219.71 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7223,7 +8183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.0952 213.36 0)
+			(at 216.8652 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7234,7 +8194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 209.55 0)
+			(at 215.9 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7245,7 +8205,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 24.13 209.55 0)
+			(at 215.9 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7265,6 +8225,88 @@
 			(project "deckPCB"
 				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 146.05 231.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61dfd680-7162-4d83-9e08-12c95ceee0a1")
+		(property "Reference" "C16"
+			(at 149.86 229.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 149.86 232.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.0152 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 146.05 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "42da49cc-59cf-4d61-afba-7819b96169f9")
+		)
+		(pin "1"
+			(uuid "22cf8299-10d6-45e3-ad2d-1245595f3b50")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7823,6 +8865,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 22.86 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "668b5084-2dd8-45a3-a5b1-6ade6409e278")
+		(property "Reference" "C11"
+			(at 26.67 166.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 26.67 168.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 23.8252 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 22.86 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ddcabc8c-2220-4c33-9670-963869711c4e")
+		)
+		(pin "1"
+			(uuid "ab2ce5b2-6af6-4efa-9c06-617fe0349180")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 185.42 80.01 0)
 		(unit 1)
@@ -7904,7 +9028,7 @@
 	)
 	(symbol
 		(lib_id "Device:Speaker")
-		(at 207.01 181.61 0)
+		(at 207.01 200.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7915,7 +9039,7 @@
 		(fields_autoplaced yes)
 		(uuid "78795051-7ce9-429e-aee0-9a659e46b5ef")
 		(property "Reference" "LS2"
-			(at 212.09 181.6099 0)
+			(at 212.09 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7926,7 +9050,7 @@
 			)
 		)
 		(property "Value" "Speaker"
-			(at 212.09 184.1499 0)
+			(at 212.09 203.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7937,7 +9061,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 186.69 0)
+			(at 207.01 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7948,7 +9072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 206.756 182.88 0)
+			(at 206.756 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7959,7 +9083,7 @@
 			)
 		)
 		(property "Description" "Speaker"
-			(at 207.01 181.61 0)
+			(at 207.01 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7979,6 +9103,170 @@
 			(project "deckPCB"
 				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
 					(reference "LS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 146.05 220.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c51a97b-36ab-4b28-8900-6a64700bdfc2")
+		(property "Reference" "C14"
+			(at 149.86 219.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 149.86 222.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.0152 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 146.05 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a9ee683c-375a-4c93-b8d0-3122049cbdca")
+		)
+		(pin "1"
+			(uuid "5f3746ce-184c-4f7f-8b5d-2956dd6b4c1b")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 33.02 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f91fcce-7c82-4535-a1d8-6ad7a48e9b28")
+		(property "Reference" "C4"
+			(at 36.83 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 36.83 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.9852 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 33.02 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3e0f1dca-29a7-423d-babf-23db06be1653")
+		)
+		(pin "1"
+			(uuid "22cf3987-0b2a-40bc-a2f1-2a7fc60706e1")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -8059,6 +9347,88 @@
 			(project "deckPCB"
 				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
 					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 30.48 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c856900-8685-4ac7-9d3e-05a681e7f6c6")
+		(property "Reference" "R6"
+			(at 33.02 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 33.02 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 28.702 177.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 30.48 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a57dece2-20b2-4c0b-83d3-f6b7cc04a534")
+		)
+		(pin "1"
+			(uuid "a474acd0-63fa-4708-9fe2-d323a8eb0ffd")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8604,6 +9974,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 177.8 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9df39d94-96a0-4cbc-b0d0-6453ab431212")
+		(property "Reference" "C20"
+			(at 181.61 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 181.61 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 178.7652 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 177.8 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c1d012d3-641d-4002-a505-110e15a7acd4")
+		)
+		(pin "1"
+			(uuid "c274f4bd-670a-4f37-8db0-dc644e4959e0")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95.25 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0618abc-7e87-47a6-843c-2ed5e8c31cdb")
+		(property "Reference" "C10"
+			(at 99.06 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 99.06 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.2152 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 95.25 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f41a8636-f887-4bd6-bc19-38d7aec335d2")
+		)
+		(pin "1"
+			(uuid "a45f8e18-e601-4f67-a026-211abfc05004")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 167.64 44.45 0)
 		(unit 1)
@@ -8684,8 +10218,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 85.09 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa004384-c900-48ba-967b-7917e7a26316")
+		(property "Reference" "C9"
+			(at 88.9 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 88.9 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.0552 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5115fb7d-0fd7-4e4c-bed8-98bad3e02ab0")
+		)
+		(pin "1"
+			(uuid "35c53118-112f-422a-a913-12fcd7ebec60")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PAM8403DR:PAM8403DR")
-		(at 160.02 173.99 0)
+		(at 160.02 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8696,7 +10312,7 @@
 		(fields_autoplaced yes)
 		(uuid "acabbb99-d3f6-4b20-bdd2-377e881d4ea5")
 		(property "Reference" "U5"
-			(at 160.02 151.13 0)
+			(at 160.02 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8706,7 +10322,7 @@
 			)
 		)
 		(property "Value" "PAM8403DR"
-			(at 160.02 153.67 0)
+			(at 160.02 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8716,7 +10332,7 @@
 			)
 		)
 		(property "Footprint" "PAM8403DR:SOIC127P605X150-16N"
-			(at 160.02 173.99 0)
+			(at 160.02 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8728,7 +10344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 173.99 0)
+			(at 160.02 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8739,7 +10355,7 @@
 			)
 		)
 		(property "Description" "Amplifiers, Audio, 3W STEREO FILTERLESS CLASS-D AUDIO AMP | Diodes Inc PAM8403DR"
-			(at 160.02 173.99 0)
+			(at 160.02 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8751,7 +10367,7 @@
 			)
 		)
 		(property "MF" "Diodes Inc."
-			(at 160.02 173.99 0)
+			(at 160.02 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8763,7 +10379,7 @@
 			)
 		)
 		(property "Package" "SOP-16 Diodes Inc."
-			(at 160.02 173.99 0)
+			(at 160.02 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8775,7 +10391,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 160.02 173.99 0)
+			(at 160.02 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8787,7 +10403,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/PAM8403DR/Diodes+Inc./view-part/?ref=eda"
-			(at 160.02 173.99 0)
+			(at 160.02 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8799,7 +10415,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PAM8403DR/Diodes+Inc./view-part/?ref=snap"
-			(at 160.02 173.99 0)
+			(at 160.02 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8811,7 +10427,7 @@
 			)
 		)
 		(property "MP" "PAM8403DR"
-			(at 160.02 173.99 0)
+			(at 160.02 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8823,7 +10439,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 160.02 173.99 0)
+			(at 160.02 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8835,7 +10451,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Diodes"
-			(at 160.02 173.99 0)
+			(at 160.02 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8895,6 +10511,88 @@
 			(project "deckPCB"
 				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 55.88 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af20f99f-4dc9-4534-af33-de104024fa6a")
+		(property "Reference" "C6"
+			(at 59.69 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 59.69 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.8452 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 55.88 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3bb0200d-f6d2-4b4e-847a-98503936bda0")
+		)
+		(pin "1"
+			(uuid "70324ad3-d58f-4120-9ea5-575f38fc5a05")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9373,8 +11071,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Pin")
-		(at 187.96 175.26 0)
+		(lib_id "Device:R")
+		(at 260.35 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9383,29 +11081,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c0ad0326-7535-4faf-b412-28a9199e0ef0")
-		(property "Reference" "J2"
-			(at 188.595 165.1 0)
+		(uuid "c01637a0-6cdf-4a45-aa4a-8e5ac012d32b")
+		(property "Reference" "R3"
+			(at 262.89 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06_Pin"
-			(at 188.595 167.64 0)
+		(property "Value" "R"
+			(at 262.89 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 175.26 0)
+			(at 258.572 69.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9416,7 +11116,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 175.26 0)
+			(at 260.35 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 260.35 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d7655e18-4c6e-4456-96bf-17397ed4790c")
+		)
+		(pin "1"
+			(uuid "d62038e3-7386-4294-8a4c-3088202c0b1a")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 187.96 194.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0ad0326-7535-4faf-b412-28a9199e0ef0")
+		(property "Reference" "J2"
+			(at 188.595 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Pin"
+			(at 188.595 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9427,7 +11207,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 187.96 175.26 0)
+			(at 187.96 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9459,6 +11239,88 @@
 			(project "deckPCB"
 				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 245.11 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0fb4458-9815-438b-bb2e-4d59ceeba26e")
+		(property "Reference" "R1"
+			(at 247.65 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 247.65 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.332 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 245.11 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7ad57d51-8de7-4d49-9fec-2e38d3ca0448")
+		)
+		(pin "1"
+			(uuid "9e90b986-35fe-4652-b9ac-de036dfcb6a3")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -9539,6 +11401,88 @@
 			(project "deckPCB"
 				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
 					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 156.21 220.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c58be64a-3bf8-4161-83ea-7cf07fb172b0")
+		(property "Reference" "C15"
+			(at 160.02 219.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 160.02 222.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.1752 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3a1edab9-8033-4d49-aa47-d98e474f21f5")
+		)
+		(pin "1"
+			(uuid "b61789c5-d545-44a5-aa03-c5a64e9afac6")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -9626,7 +11570,7 @@
 	)
 	(symbol
 		(lib_id "IP5306:IP5306")
-		(at 38.1 186.69 0)
+		(at 229.87 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9637,7 +11581,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9baa4d1-6a5d-48f9-9ee2-1271d18ea6a8")
 		(property "Reference" "U3"
-			(at 38.1 166.37 0)
+			(at 229.87 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9647,7 +11591,7 @@
 			)
 		)
 		(property "Value" "IP5306"
-			(at 38.1 168.91 0)
+			(at 229.87 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9657,7 +11601,7 @@
 			)
 		)
 		(property "Footprint" "IP5306:SOP127P600X165-9N"
-			(at 38.1 186.69 0)
+			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9669,7 +11613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 186.69 0)
+			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9680,7 +11624,7 @@
 			)
 		)
 		(property "Description" "Fully-Integrated Power Bank System-On-Chip with 2.1A charger, 2.4A discharger"
-			(at 38.1 186.69 0)
+			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9692,7 +11636,7 @@
 			)
 		)
 		(property "MF" "Injoinic"
-			(at 38.1 186.69 0)
+			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9704,7 +11648,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.65mm"
-			(at 38.1 186.69 0)
+			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9716,7 +11660,7 @@
 			)
 		)
 		(property "Package" "eSOP8 INJOINIC"
-			(at 38.1 186.69 0)
+			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9728,7 +11672,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 38.1 186.69 0)
+			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9740,7 +11684,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/IP5306/Injoinic/view-part/?ref=eda"
-			(at 38.1 186.69 0)
+			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9752,7 +11696,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 38.1 186.69 0)
+			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9764,7 +11708,7 @@
 			)
 		)
 		(property "PARTREV" "1.31"
-			(at 38.1 186.69 0)
+			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9776,7 +11720,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/IP5306/Injoinic/view-part/?ref=snap"
-			(at 38.1 186.69 0)
+			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9788,7 +11732,7 @@
 			)
 		)
 		(property "MP" "IP5306"
-			(at 38.1 186.69 0)
+			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9800,7 +11744,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 38.1 186.69 0)
+			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9812,7 +11756,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Injoinic"
-			(at 38.1 186.69 0)
+			(at 229.87 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9940,6 +11884,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 165.1 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1b31159-37e6-4e7c-86bb-cdb138ba8aa7")
+		(property "Reference" "C17"
+			(at 168.91 135.8899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 168.91 138.4299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.0652 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "260c020b-331c-43c1-9ed3-e593fc90d913")
+		)
+		(pin "1"
+			(uuid "c63bcf67-d99e-4b73-82ce-b8c558b1135a")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 185.42 44.45 0)
 		(unit 1)
@@ -10020,6 +12046,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 22.86 198.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d49fe687-b029-4d0e-9011-8413663390e1")
+		(property "Reference" "R7"
+			(at 25.4 196.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 25.4 199.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.082 198.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 22.86 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1492fe47-a0c2-437c-a82d-8c84920973c1")
+		)
+		(pin "1"
+			(uuid "a8c63961-67c5-41ca-a952-0faaa3121c48")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 165.1 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcd39f29-6111-4c7e-916f-fa857049c12a")
+		(property "Reference" "C19"
+			(at 168.91 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 168.91 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.0652 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f7d4658c-e4d9-46f8-8096-69fc90e59329")
+		)
+		(pin "1"
+			(uuid "43516b8d-9383-4eed-ba7b-9d3bd5a4fc86")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 167.64 67.31 0)
 		(unit 1)
@@ -10094,6 +12284,88 @@
 			(project "deckPCB"
 				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 22.86 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa3e05e7-8dc0-43e1-b46f-e38a43ba23cd")
+		(property "Reference" "C3"
+			(at 26.67 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 26.67 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 23.8252 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 22.86 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bbee3d0b-0e18-4283-9fb1-ab12622f00cd")
+		)
+		(pin "1"
+			(uuid "6099b2d6-2f33-4689-bbd5-4bf12c9f18f2")
+		)
+		(instances
+			(project "deckPCB"
+				(path "/247c98a0-82d0-40f5-8fb4-0a24ae0970fd"
+					(reference "C3")
 					(unit 1)
 				)
 			)
