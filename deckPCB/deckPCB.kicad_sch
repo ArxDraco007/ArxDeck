@@ -7078,16 +7078,6 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 34.29) (xy 387.35 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb4d21d0-dac8-441e-9d2b-014b84f75a96")
-	)
-	(wire
-		(pts
 			(xy 289.56 60.96) (xy 289.56 62.23)
 		)
 		(stroke
@@ -7095,16 +7085,6 @@
 			(type default)
 		)
 		(uuid "c1079d99-118b-44f7-b0be-fbf511bc228c")
-	)
-	(wire
-		(pts
-			(xy 391.16 31.75) (xy 387.35 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2f49bd7-31c4-4839-8889-9a2daf1503e0")
 	)
 	(wire
 		(pts
@@ -7198,16 +7178,6 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 26.67) (xy 387.35 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f77567b8-5824-420b-a01f-f48d400f34d3")
-	)
-	(wire
-		(pts
 			(xy 337.82 46.99) (xy 337.82 43.18)
 		)
 		(stroke
@@ -7242,7 +7212,7 @@
 	)
 	(global_label "VBUS_5V"
 		(shape input)
-		(at 389.89 26.67 0)
+		(at 387.35 26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7252,7 +7222,7 @@
 		)
 		(uuid "1a69857c-00ea-422f-a62d-c065922f21ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 401.0395 26.67 0)
+			(at 398.4995 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7314,7 +7284,7 @@
 	)
 	(global_label "CC2"
 		(shape input)
-		(at 391.16 34.29 0)
+		(at 387.35 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7324,7 +7294,7 @@
 		)
 		(uuid "50c5c072-5c3c-4d32-8ad4-ae57ad2d72a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 397.8947 34.29 0)
+			(at 394.0847 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7554,7 +7524,7 @@
 	)
 	(global_label "CC1"
 		(shape input)
-		(at 391.16 31.75 0)
+		(at 387.35 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7564,7 +7534,7 @@
 		)
 		(uuid "e965bfb5-65b8-451b-82b7-e40b68930499")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 397.8947 31.75 0)
+			(at 394.0847 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
